@@ -135,8 +135,8 @@ NAV2D.Navigator = function(options) {
     });
   } else {
     robotMarker = new ROS2D.ArrowShape({
-      size : 0.8,
-      strokeSize : 0.5,
+      size : 25,
+      strokeSize : 1,
       strokeColor: createjs.Graphics.getRGB(255, 179, 0),
       fillColor : createjs.Graphics.getRGB(255, 128, 0, 0.66),
       pulse : false
